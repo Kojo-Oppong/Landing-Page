@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.Cozy{
+    margin-right: 150px;
+    color: red;
+    color: #000;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/gleneagles-hotel.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: rgb(165, 42, 42);
+}
+
+nav {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.navlinks {
+  display: flex;
+  gap: 70px;
+}
+
+.navlinks li {
+  list-style-type: none;
+}
+
+.navlinks li a {
+  text-decoration: none;
+}
+
+.header-text {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  height: 100%;
+  width: 50%;
+  margin: auto;
+}
+
+.header-text button {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+h3 {
+  text-align: left;
+  color: black;
+  align-self: flex-start;
+}
+
+.header-box {
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+}
+
+form {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 80px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 5px;
+  margin: 9px 0;
+}
+
+.input-field {
+  padding: 0.5rem 1rem;
+}
+
+.input-field button {
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+
+i {
+  font-size: 24px;
+  color: #007bff;
+}
+
+.services a{
+    color: #000;
+    text-decoration: none;
+}
+
+
