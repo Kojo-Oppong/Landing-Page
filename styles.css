@@ -1,116 +1,125 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
-.Cozy{
-    margin-right: 150px;
-    color: red;
-    color: #000;
-}
-
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/gleneagles-hotel.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 500px;
+  background: orangered;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 header a {
   text-decoration: none;
   color: white;
-}
-
-header a:hover {
-  color: rgb(165, 42, 42);
+  text-align: center;
+  justify-content: space-around;
 }
 
 nav {
   display: flex;
-  gap: 100px;
-  justify-content: center;
+  color: #262626;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 40px;
+  background-color: white;
+}
+
+.nav-logo {
+  height: 50px;
+  width: auto;
+  /* margin-right: 10px;  */
+  /* border-radius: 10%; */
+  /* object-fit: contain; */
+  /* filter: 0 , 1; */
+}
+
+nav a {
+  text-decoration: none;
+  color: #262626;
 }
 
 .navlinks {
   display: flex;
-  gap: 70px;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  width: 60%;
 }
 
 .navlinks li {
   list-style-type: none;
 }
 
-.navlinks li a {
-  text-decoration: none;
+.donate-btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 10px;
+  font-weight: 10;
+  line-height: 0.5;
+  color: #fff;
+  text-decoration: navajowhite;
+  background: #262222;
+  /* background-color: transparent;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(255, 255, 255); */
 }
 
-.header-text {
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/asset\ 1.jpeg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+section h1 {
   color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 20px;
+
   height: 100%;
   width: 50%;
   margin: auto;
 }
 
-.header-text button {
-  background-color: transparent;
+.hero-text {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* gap: 20px;
+  height: 100%; */
+  width: 60%;
+  margin: auto;
+}
+
+.hero-btn {
+  background-color: #ff3c00;
   border-radius: 20px;
   padding: 0.5rem 1rem;
   border: 1px solid rgb(255, 255, 255);
 }
 
-h3 {
-  text-align: left;
-  color: black;
-  align-self: flex-start;
-}
-
-.header-box {
-  display: flex;
-  justify-content: left;
-  gap: 15px;
-}
-
-form {
-  background-color: white;
+.hero-readmorebtn {
   padding: 0.5rem 1rem;
-  border-radius: 5px;
-  margin: 80px;
+  border: 1px solid red;
+  border-radius: 30px;
+  font-size: 10px;
+  color: #1D1A13;
+  outline: none;
 }
-
-input,
-select,
-button {
-  width: 100%;
-  padding: 5px;
-  margin: 9px 0;
-}
-
-.input-field {
-  padding: 0.5rem 1rem;
-}
-
-.input-field button {
-  background-color: orangered;
-  color: white;
-  border: none;
-}
-
-i {
-  font-size: 24px;
-  color: #007bff;
-}
-
-.services a{
-    color: #000;
-    text-decoration: none;
-}
-
-
