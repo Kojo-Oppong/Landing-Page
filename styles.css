@@ -57,6 +57,11 @@ nav {
   /* filter: 0 , 1; */
 }
 
+nav li a:hover {
+  color: #FF4700;
+
+}
+
 nav a {
   text-decoration: none;
   font-size: x-small;
@@ -127,34 +132,36 @@ nav a {
 }
 
 .donatenow-btn {
-  padding: 5px 60px;
-  display: flex;
-  gap: 5px;
+  padding: 14px 28px;
+  border-radius: 999px;
+  display: inline-block;
+  /* gap: 20px;  */
   justify-items: center;
-  width: 15%;
+  /* width: 15%; */
   background-color: #FF4700;
   border: black solid;
   border-radius: 20px;
   font-size: 12px;
   font-weight: 500;
-  line-height: 1;
+  /* line-height: 1; */
   color: white;
-  outline: none;
+  /* outline: none; */
 }
 
 .readmore-btn {
-  padding: 5px 40px;
-  float: right;
-  display: flex;
-  justify-items: center;
-  width: 15%;
+  padding: 20px 25px;
+  /* float: right; */
+  display: inline-block;
+  /* justify-items: center; */
+  /* width: 15%; */
   background-color: #FF4700;
   border-radius: 24px;
   font-size: 12px;
   font-weight: 500;
-  line-height: 1;
+  /* line-height: 1; */
   color: white;
-  outline: none;
+  /* outline: none; */
+  margin-right: 19px;
 }
 
 .hero-text {
@@ -185,6 +192,7 @@ nav a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width:100%;
   /* display: flex;
   justify-content: space-around;
   align-items: center;
@@ -196,6 +204,8 @@ nav a {
 
 .volunteer {
   background-color: #FF4700;
+  border-radius: 20px;
+  margin-right: 20px;
 }
 
 .volunteer-img {
@@ -214,8 +224,14 @@ nav a {
   font-weight: bold;
 }
 
+.DanceandMusic:hover {
+  color: white;
+  background-color: orangered;
+}
 .DanceandMusic {
-  background-color: #ECF2F5
+  background-color: #ECF2F5;
+  border-radius: 20px;
+  margin-right: 20px;
 }
 
 .DanceandMusic-img {
@@ -235,6 +251,13 @@ nav a {
 
 .online{
   background-color: #ECF2F5;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.online:hover {
+  color: white;
+  background-color: orangered;
 }
 
 .online-img{
@@ -261,8 +284,10 @@ nav a {
   position: relative;
   padding: 0 60px;
   margin-bottom: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/asset22.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/asset22.jpeg);
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/asset22.jpeg);  */
+  /* margin-bottom: 20px;
+  padding-bottom: 20px; */
 }
 
 .welcome-section p {
@@ -281,9 +306,8 @@ nav a {
   display: flex;
   padding: 0 20px;
   height: 400px;
-  box-sizing: border-box;
+  border-radius: 20px;
   margin: auto;
-  box-sizing: content-box;
   overflow: clip;
   width: 100%;
   display: flex;
@@ -323,3 +347,102 @@ nav a {
   color: #F5F5F5;
   font-weight: lighter;
 }
+
+
+.footer {
+  padding-top: 0 5px;
+  margin-top: 30px;
+  background-color: burlywood;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/asset\ 24.jpeg);
+  color: white;
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  min-width: 250px;
+}
+
+.footer-column h3 {
+  font-size: 15pt;
+  font-style: italic;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 20px;
+}
+
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  color: #f0a500;
+}
+
+.social-icons a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  filter: brightness(0) invert(2);
+
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.footer-column form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #ECF2F5;
+}
+
+.footer-column button {
+  padding: 10px;
+  background-color: #f0a500;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-column button:hover {
+  background-color: #d88c00;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0 0;
+  border-top: 1px solid #333;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
