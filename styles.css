@@ -85,7 +85,7 @@ nav a {
 
 
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./images/asset1.jpeg);
   background-size: cover;
   color: white;
@@ -139,7 +139,7 @@ nav a {
   justify-items: center;
   /* width: 15%; */
   background-color: #FF4700;
-  border: black solid;
+  /* border: black solid; */
   border-radius: 20px;
   font-size: 12px;
   font-weight: 500;
@@ -149,7 +149,7 @@ nav a {
 }
 
 .readmore-btn {
-  padding: 20px 25px;
+  padding: 14px 28px;
   /* float: right; */
   display: inline-block;
   /* justify-items: center; */
@@ -356,6 +356,7 @@ nav a {
    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/asset\ 24.jpeg);
   color: white;
   padding: 40px 20px 20px;
+  margin-top: 50px;
 }
 
 .footer-container {
